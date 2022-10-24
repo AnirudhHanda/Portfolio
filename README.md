@@ -1,2 +1,8 @@
 # Portfolio
-This repo aims at displaying my Portfolio webpage which contains the links to all of my social media handles.
+
+This repository aims at displaying my Portfolio website.
+Links to all of my social media handles are contained in my portfolio page.
+
+# Tech Used
+- HTML
+- CSS
