@@ -526,6 +526,16 @@ body{
     }
 }
 @media only screen and (max-width: 518px){
+     .container .right_content {
+        transform: translateY(72rem);
+        
+    }
+    .container .left_content p{
+        margin-left: -5rem;
+    }
+    .container .left_content{
+        transform: translateY(65rem);
+    }
     .container .right_content .box{
         margin-left: -2.6rem;
     }
