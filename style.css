@@ -511,44 +511,4 @@ body{
     }
     
 }
-@media only screen and (max-width: 549px){
-    .container .left_content .bos{
-        margin-left: -1.3rem;
-    }
-    #always{
-        margin-left: -20rem;
-    }
-    .container .left_content p{
-        font-size: 1.6rem;
-    }
-    .container .left_content h1{
-        font-size: 2rem;
-    }
-}
-@media only screen and (max-width: 518px){
-     
-    .container .right_content .box{
-        margin-left: -2.6rem;
-    }
-    .container .left_content{
-        margin-left: 4.7rem;
-    }
-    #always{
-        padding-left: -6rem;
-    }
-}
-@media only screen and (max-width: 413px){
-    .container .left_content h1{
-        font-size: 1.2rem;
-    }
-    #always{
-        margin-left: -25rem;
-    }
-    .container .left_content .bos{
-        font-size: 1.7rem;
-        margin-left: -2.6rem;
-    }
-    .container .left_content .bos .b1{
-        margin-left: -255rem;
-    }
-}
+
