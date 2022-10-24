@@ -519,10 +519,10 @@ body{
         margin-left: -20rem;
     }
     .container .left_content p{
-        font-size: 1.2rem;
+        font-size: 1.6rem;
     }
     .container .left_content h1{
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
 }
 @media only screen and (max-width: 518px){
@@ -544,7 +544,7 @@ body{
         margin-left: -25rem;
     }
     .container .left_content .bos{
-        font-size: 1rem;
+        font-size: 1.7rem;
         margin-left: -2.6rem;
     }
     .container .left_content .bos .b1{
