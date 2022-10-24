@@ -490,7 +490,7 @@ body{
         margin-top: 0.1rem;
     }
     .container .right_content {
-        transform: translateY(150rem);
+        transform: translateY(100rem);
         
     }
     .container .left_content{
