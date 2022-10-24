@@ -538,16 +538,6 @@ body{
     }
 }
 @media only screen and (max-width: 413px){
-    .container .right_content {
-        transform: translateY(155rem);
-        
-    }
-    .container .left_content p{
-        margin-left: -50rem;
-    }
-    .container .left_content{
-        transform: translateY(125rem);
-    }
     .container .left_content h1{
         font-size: 1.2rem;
     }
