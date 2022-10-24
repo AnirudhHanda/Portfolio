@@ -1,0 +1,553 @@
+html{
+    font-size: 62.5%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Merriweather:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    background: #171c28;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-attachment: fixed; */
+    height: 100vh;
+}
+
+.nav{
+    /* z-index: 9; */
+    height: 6.9rem;
+    display:  inline;
+
+}
+.nav_top{
+    position: absolute;               
+     /* To change the navbar fixation chage to fixed; */
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.logo{
+    float: left;
+    width: 17%;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    padding-top: 0.1rem;
+    /* padding: 10px; */
+}
+.logo img{
+    width: 30rem;
+    height: auto;
+    margin-left: 3rem;
+    margin-top: -6rem;
+    transition: all 1s ease;
+}
+.logo img:hover{
+    width: 32rem;
+    transition: all 1s ease;
+    height: auto;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+.container .left_content{
+    width: 60%;
+}
+.container .left_content h1{
+    color: #fff;
+    margin-top: 20rem;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Merriweather', serif;
+    padding-left: 4rem;
+    margin-top: 15rem;
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+}
+
+/* Waving icon */
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+
+
+
+.container .left_content p{
+    margin-top: 4rem;
+    color: #fff;
+    font-size: 2.5rem;
+    padding-left: 4rem;
+    font-family: 'Forum', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    word-spacing: 0.05em;
+    line-height: 1.5em;
+}
+
+.bos{
+    font-size: 3.5rem;
+    font-weight: bold;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    font-family: 'Forum', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+.b1{
+    animation: ani1 15s infinite;
+}
+.b2{
+    animation: ani2 15s infinite;
+}
+.b3{
+    animation: ani3 15s infinite;
+}
+.b4{
+    animation: ani4 15s infinite;
+}
+.b5{
+    animation: ani5 15s infinite;
+}
+
+@keyframes ani1{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 0;
+    }
+}
+@keyframes ani2{
+    20%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+}
+@keyframes ani3{
+    40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0;
+    }
+}
+@keyframes ani4{
+    60%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 0;
+    }
+}
+@keyframes ani5{
+    80%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.container .left_content p span{
+    padding-left: 1rem;
+    margin-top: -0.9rem;
+}
+
+.container .right_content{
+    width: 40%;
+}
+.container .right_content .box{
+    position: relative;
+    width: 35rem;
+    height: 35rem;
+    background: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 7rem;
+    margin-top: 17rem;
+}
+.box::before{
+    content:  '';
+    position: absolute;
+    inset: -1rem 11rem;
+    background: linear-gradient(315deg, #00ccff, #d400d4);
+    transition: 0.5s;
+    animation: animate 4s linear infinite;
+}
+.box:hover::before{
+    inset: -2rem 0rem;
+}
+
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.box::after{
+    content: '';
+    position: absolute;
+    inset: 6px;
+    background: #171c28;
+    border-radius: 50%;
+    z-index: 1;
+}
+.container .right_content .box .content{
+    position: absolute;
+    inset: 20px;
+    border: 5px solid #171c28;
+    z-index: 3;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+    pointer-events: none;
+    z-index: 3;
+}
+.box:hover .content img{
+    opacity: 0;
+}
+.content h2{
+    font-family: 'Merriweather', serif;
+    position: relative;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.content span{
+    color: rgb(157, 157, 157);
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 1em;
+    font-family: 'Merriweather', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.content a{
+    font-family: 'Merriweather', serif;
+    position: relative;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background: #fff;
+    color: #070a1c;
+    border-radius: 500;
+    font-size: 1.25em;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+.content a:hover{
+    letter-spacing: 0.2em;
+}
+
+
+.left_content .main{
+    width: 100%;
+    display: flex;
+    margin-left: 8rem;
+    margin-top: 5rem;
+}
+.icon{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 6rem;
+    background: #fff;
+    margin: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 6.4rem;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgba(150, 150, 150, .3);
+    transition: all .3s ease-out;
+}
+.icon:hover{
+    width: 24rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+.icon:hover i{
+    color: #fff;
+}
+.icon .fa-linkedin-in{
+    color: #4A86C5;
+}
+.lnk:hover{
+    background: #4A86C5;
+}
+
+.icon .fa-github{
+    color: #161614;
+}
+.git:hover{
+    background: #161614;
+}
+
+.icon .fa-envelope{
+    color: #f46060;
+}
+.mail:hover{
+    background: #f46060;
+}
+
+.icon .fa-phone{
+    color: #03989E;
+}
+.phn:hover{
+    background: #03989E;
+}
+
+.icon .fa-twitter{
+    color: #1B9DF0;
+}
+.twt:hover{
+    background: #1B9DF0;
+}
+
+
+
+@media only screen and (max-width: 1456px){
+    .main{
+        margin-top: -5rem;
+    }
+}
+@media only screen and (max-width: 1250px){
+    .container .right_content .box{
+        width: 24rem;
+        height: 24rem;
+    }
+    .container .left_content h1{
+        font-size: 4rem;
+    }
+    .container .left_content p{
+        font-size: 1.8rem;
+        line-height: 2.7rem;
+    }
+    .container .left_content .bos{
+        font-size: 2.5rem;
+    }
+    .b4{
+        margin-left: 3.5rem;
+    }
+    .container .left_content p span{
+        padding-left: -1rem;
+        line-height: 2rem;
+        margin-top: -2rem;
+    }
+    .content h2{
+        font-size: 1.7rem;
+    }
+    .content span{
+        font-size: 0.9em;
+    }
+    .content a{
+        font-size: 0.9em;
+    }
+}
+@media only screen and (max-width: 1153px){
+    .container .left_content p{
+        font-size: 1.7rem;
+    }
+    .container .left_content .bos{
+        font-size: 2.1rem;
+    }
+    /* .container .left_content p span{
+        padding-left: -15rem;
+    } */
+    .b4{
+        margin-left: 2.6rem;
+    }
+}
+@media only screen and (max-width: 1019px){
+    .container{
+        flex-direction: column-reverse;
+    }
+    .container .right_content {
+        transform: translateY(25rem);
+        margin-left: 28%;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .container .left_content{
+        transform: translateY(15rem);
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        margin-left: 18%;
+    }
+    .main{
+        margin-left: -3rem;
+    }
+    .container .left_content h1{
+        font-size: 3.4rem;
+    }
+    #always{
+        margin-left: -5rem;
+    }
+    .left_content .main{
+        margin-left: 4.8rem;
+    }
+}
+@media only screen and (max-width: 893px){
+    .container .left_content h1{
+        font-size: 2.7rem;
+    }
+    .container .left_content p{
+        font-size: 1.8rem;
+    }
+    #always{
+        margin-left: -7.8rem;
+    }
+    .left_content .main{
+        margin-left: 2rem;
+    }
+    .container .right_content {
+        transform: translateY(7.2rem);
+        
+    }
+    .container .left_content{
+        transform: translateY(0.3rem);
+    }
+
+}
+@media only screen and (min-width: 320px) and (max-width: 700px){
+    .main{
+        flex-direction: column;
+        transform: translateX(7rem);
+    }
+    .logo img{
+        width: 20rem;
+        margin-top: 0.1rem;
+    }
+    .container .right_content {
+        transform: translateY(45rem);
+        
+    }
+    .container .left_content{
+        transform: translateY(35rem);
+    }
+    .container .right_content .box{
+        width: 23rem;
+        height: 23rem;
+    }
+    #always{
+        margin-left: -15rem;
+    }
+    .container .left_content .bos{
+        font-size: 1.4rem;
+    }
+    .container .left_content h1{
+        font-size: 2.2rem;
+    }
+    
+}
+@media only screen and (max-width: 549px){
+    .container .left_content .bos{
+        margin-left: -1.3rem;
+    }
+    #always{
+        margin-left: -20rem;
+    }
+    .container .left_content p{
+        font-size: 1.2rem;
+    }
+    .container .left_content h1{
+        font-size: 1.7rem;
+    }
+}
+@media only screen and (max-width: 518px){
+    .container .right_content .box{
+        margin-left: -2.6rem;
+    }
+    .container .left_content{
+        margin-left: 4.7rem;
+    }
+    #always{
+        padding-left: -6rem;
+    }
+}
+@media only screen and (max-width: 413px){
+    .container .left_content h1{
+        font-size: 1.2rem;
+    }
+    #always{
+        margin-left: -25rem;
+    }
+    .container .left_content .bos{
+        font-size: 1rem;
+        margin-left: -2.6rem;
+    }
+    .container .left_content .bos .b1{
+        margin-left: -255rem;
+    }
+}
