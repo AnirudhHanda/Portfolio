@@ -526,16 +526,7 @@ body{
     }
 }
 @media only screen and (max-width: 518px){
-     .container .right_content {
-        transform: translateY(92rem);
-        
-    }
-    .container .left_content p{
-        margin-left: -5rem;
-    }
-    .container .left_content{
-        transform: translateY(75rem);
-    }
+     
     .container .right_content .box{
         margin-left: -2.6rem;
     }
@@ -547,6 +538,16 @@ body{
     }
 }
 @media only screen and (max-width: 413px){
+    .container .right_content {
+        transform: translateY(92rem);
+        
+    }
+    .container .left_content p{
+        margin-left: -5rem;
+    }
+    .container .left_content{
+        transform: translateY(75rem);
+    }
     .container .left_content h1{
         font-size: 1.2rem;
     }
