@@ -490,15 +490,18 @@ body{
         margin-top: 0.1rem;
     }
     .container .right_content {
-        transform: translateY(45rem);
+        transform: translateY(755rem);
         
     }
     .container .left_content{
-        transform: translateY(35rem);
+        transform: translateY(65rem);
     }
     .container .right_content .box{
         width: 23rem;
         height: 23rem;
+    }
+    .container .left_content p{
+        transform: translateX(-5rem);
     }
     #always{
         margin-left: -15rem;
