@@ -97,7 +97,7 @@ body{
 
 
 .container .left_content p{
-    margin-top: 4rem;
+    margin-top: 10rem;
     color: #fff;
     font-size: 2.5rem;
     padding-left: 4rem;
@@ -110,7 +110,9 @@ body{
     line-height: 1.5em;
 }
 
-.bos{
+.container .left_content .bos{
+    margin-left: 12rem;
+    margin-top: 2rem;
     font-size: 3.5rem;
     font-weight: bold;
     opacity: 0;
