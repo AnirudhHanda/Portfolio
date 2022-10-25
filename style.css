@@ -481,17 +481,20 @@ body{
 
 }
 @media only screen and (min-width: 320px) and (max-width: 700px){
+    .container .left_content h1{
+        margin-left: -0.5rem;
+    }
     .main{
         flex-direction: column;
-        transform: translateX(7rem);
+        transform: translateX(6.2rem);
     }
     .logo img{
         width: 20rem;
         margin-top: 0.1rem;
     }
     .container .right_content {
-        transform: translateY(68rem);
-        margin-left: -2.1rem;
+        transform: translateY(59rem);
+        margin-left: -1.7rem;
         
     }
     .container .left_content{
@@ -503,7 +506,7 @@ body{
         height: 23rem;
     }
     .container .left_content p{
-        transform: translateX(-4.8rem);
+        transform: translateX(-5.2rem);
     }
     #always{
         margin-left: -15rem;
