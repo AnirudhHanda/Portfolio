@@ -491,11 +491,12 @@ body{
     }
     .container .right_content {
         transform: translateY(68rem);
-        margin-left: -2.5rem;
+        margin-left: -2.1rem;
         
     }
     .container .left_content{
         transform: translateY(60rem);
+        width: 70%;
     }
     .container .right_content .box{
         width: 23rem;
