@@ -496,7 +496,7 @@ body{
     }
     .container .left_content{
         transform: translateY(60rem);
-        width: 70%;
+        width: 100%;
     }
     .container .right_content .box{
         width: 23rem;
