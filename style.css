@@ -511,6 +511,9 @@ body{
         width: 23rem;
         height: 23rem;
     }
+    .container .left_content{
+        text-align: center;
+    }
     .container .left_content p{
         text-align: center;
         font-size: 1.4rem;
@@ -520,7 +523,7 @@ body{
         margin-left: -15rem;
     }
     .container .left_content .bos{
-        text-align: center;
+        transform: translateX(-25rem);
         font-size: 1.6rem;
     }
     .container .left_content h1{
