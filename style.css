@@ -483,7 +483,7 @@ body{
 @media only screen and (min-width: 320px) and (max-width: 700px){
     .container .left_content h1{
         margin-left: -0.5rem;
-        transform: translateX(-1.2rem);
+        transform: translateX(-2rem);
     }
     .main{
         flex-direction: column;
@@ -495,7 +495,7 @@ body{
     }
     .container .right_content {
         transform: translateY(55rem);
-        margin-left: -1.1rem;
+        margin-left: -1.25rem;
         
     }
     .container .left_content{
