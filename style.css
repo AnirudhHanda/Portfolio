@@ -489,7 +489,7 @@ body{
     }
     .main{
         flex-direction: column;
-        transform: translateX(5rem);
+        transform: translateX(4.7rem);
     }
     .logo img{
         width: 20rem;
