@@ -485,9 +485,12 @@ body{
 }
 @media only screen and (min-width: 320px) and (max-width: 700px){
     .container .left_content .bos{
-        transform: translateX(-43rem);
+        transform: translateX(-44.5rem);
         font-size: 1.9rem;
         text-shadow: 0.5px 0.5px 0.5px #fff;
+    }
+    .container .left_content .bos .b4{
+        transform: translateX(3rem);
     }
     .container .left_content h1{
         padding-left: 3rem;
